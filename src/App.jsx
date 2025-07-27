@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1 class="bg-red-500 text-2xl text-white"> hello react</h1>
+      <h1 className="bg-red-500 text-2xl text-white"> hello react</h1>
     </>
   );
 }
