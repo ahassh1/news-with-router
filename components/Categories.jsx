@@ -1,4 +1,5 @@
 import React, { use } from "react";
+// fetch this
 const categoryPromise = fetch("/categories.json").then((res) => res.json());
 const Categories = () => {
   const categories = use(categoryPromise);
