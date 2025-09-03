@@ -22,5 +22,4 @@ const LeatestNews = () => {
     </div>
   );
 };
-
 export default LeatestNews;
