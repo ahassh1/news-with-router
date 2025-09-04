@@ -1,8 +1,7 @@
 import { FaEye, FaStar, FaShareAlt, FaRegBookmark } from "react-icons/fa";
 
 const NewsCard = ({ news }) => {
-  const { title, author, thumbnail_url, details, rating, total_view, tags } =
-    news;
+  const { title, author, thumbnail_url, details, rating, total_view } = news;
 
   const formattedDate = new Date(
     news.author.published_date
