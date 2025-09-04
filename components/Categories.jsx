@@ -7,6 +7,7 @@ const Categories = () => {
   return (
     <div>
       <h2 className="font-bold">All Categories ({categories.length}) </h2>
+      <div>{}</div>
     </div>
   );
 };
